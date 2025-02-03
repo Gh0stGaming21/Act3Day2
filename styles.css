@@ -30,7 +30,7 @@ header {
     background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); 
     padding: 1rem 0;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .logo {
@@ -62,7 +62,7 @@ nav a:hover {
     background-color: #fff;
     padding: 2rem;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     margin: 1rem;
 }
@@ -95,7 +95,7 @@ nav a:hover {
     padding: 2rem;
     background-color: #fff;
     margin: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
 
@@ -116,7 +116,7 @@ nav a:hover {
     width: calc(33.33% - 1rem);
     margin: 0.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s;
 }
 
@@ -128,7 +128,7 @@ footer {
     text-align: center;
     padding: 1rem 0;
     background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); 
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
     margin-top: 1rem;
     border-radius: 8px;
     color: #fff; 
