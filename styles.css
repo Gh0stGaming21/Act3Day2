@@ -26,16 +26,18 @@ a:hover {
     text-decoration: underline;
 }
 
-header {
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); 
+header, footer {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
     padding: 1rem 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
 }
 
 .logo {
     font-size: 2rem;
     font-weight: bold;
+    color: #02ce6f;
 }
 
 nav {
@@ -45,17 +47,13 @@ nav {
 nav a {
     margin: 0 1rem;
     text-decoration: none;
-    color: #fff; 
-    transition: color 0.3s, transform 0.3s; 
+    color: #fff;
+    transition: color 0.3s, transform 0.3s;
 }
 
 nav a:hover {
     color: #003a32;
-    transform: scale(1.1); 
-}
-
-.logo{
-    color: #02ce6f;
+    transform: scale(1.1);
 }
 
 .hero {
@@ -124,16 +122,6 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); 
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
-    margin-top: 1rem;
-    border-radius: 8px;
-    color: #fff; 
-}
-
 @media (max-width: 768px) {
     .gallery img {
         width: calc(50% - 1rem);
@@ -143,5 +131,21 @@ footer {
 @media (max-width: 480px) {
     .gallery img {
         width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        margin: 0 0.5rem;
     }
 }
